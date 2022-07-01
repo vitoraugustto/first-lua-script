@@ -2,7 +2,7 @@ texts = { 'Babe please stop!', 'You are not Malenia', 'Blade of Miquella' }
 operators = { '+', '-', '/', '*' }
 
 texts_file = io.open('texts.txt', 'w')
-calcs_file = io.open('calc.txt', 'w')
+calcs_file = io.open('calcs.txt', 'w')
 
 function calc(value1, operator, value2)
   if operator == operators[1] then
